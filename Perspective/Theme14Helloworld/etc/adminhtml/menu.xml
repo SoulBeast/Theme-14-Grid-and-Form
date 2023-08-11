@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Perspective_Theme14Helloworld::theme14helloworld" title="Theme 14 Hello World" module="Perspective_Theme14Helloworld" sortOrder="51" resource="Perspective_Theme14Helloworld::theme14helloworld"/>
+        <add id="Perspective_Theme14Helloworld::post" title="Manage Posts" module="Perspective_Theme14Helloworld" sortOrder="10" action="perspective_theme14helloworld/post" resource="Perspective_Theme14Helloworld::post" parent="Perspective_Theme14Helloworld::theme14helloworld"/>
+        <add id="Perspective_Theme14Helloworld::hello_configuration" title="Configuration" module="Perspective_Theme14Helloworld" sortOrder="99" parent="Perspective_Theme14Helloworld::theme14helloworld" action="adminhtml/system_config/edit/section/theme14helloworld" resource="Perspective_Theme14Helloworld::theme14helloworld_configuration"/>
+    </menu>
+</config>
